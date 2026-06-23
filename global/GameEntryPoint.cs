@@ -12,17 +12,17 @@ using GFramework.Godot.scene;
 using GFramework.Godot.ui;
 using GFramework.SourceGenerators.Abstractions.logging;
 using GFramework.SourceGenerators.Abstractions.rule;
-using GFrameworkTemplate.scripts.core;
-using GFrameworkTemplate.scripts.core.environment;
-using GFrameworkTemplate.scripts.core.resource;
-using GFrameworkTemplate.scripts.core.state.impls;
-using GFrameworkTemplate.scripts.enums.scene;
-using GFrameworkTemplate.scripts.utility;
-using GFrameworkTemplate.scripts.cqrs.setting.command;
+using BallRebound.scripts.core;
+using BallRebound.scripts.core.environment;
+using BallRebound.scripts.core.resource;
+using BallRebound.scripts.core.state.impls;
+using BallRebound.scripts.enums.scene;
+using BallRebound.scripts.utility;
+using BallRebound.scripts.cqrs.setting.command;
 using Godot;
 using Godot.Collections;
 
-namespace GFrameworkTemplate.global;
+namespace BallRebound.global;
 
 /// <summary>
 ///     游戏入口点节点类，负责初始化游戏架构和管理全局游戏状态

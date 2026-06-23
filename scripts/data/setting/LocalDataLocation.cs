@@ -1,7 +1,7 @@
 using GFramework.Game.Abstractions.data;
 using GFramework.Game.Abstractions.enums;
 
-namespace GFrameworkTemplate.scripts.data.setting;
+namespace BallRebound.scripts.data.setting;
 
 public sealed record LocalDataLocation : IDataLocation
 {

@@ -1,4 +1,4 @@
-namespace GFrameworkTemplate.scripts.enums.resources;
+namespace BallRebound.scripts.enums.resources;
 
 /// <summary>
 ///     纹理资源键值枚举，用于注册和查找纹理

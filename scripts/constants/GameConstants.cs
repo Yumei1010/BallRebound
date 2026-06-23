@@ -1,4 +1,4 @@
-namespace GFrameworkTemplate.scripts.constants;
+namespace BallRebound.scripts.constants;
 
 /// <summary>
 ///     全局常量定义
@@ -8,6 +8,6 @@ public static class GameConstants
     public const string Development = "Development";
     public const string Main = "Main";
     public const string Master = "Master";
-    public const string Bgm = "BGM";
+    public const string Bgm = "Music";
     public const string Sfx = "SFX";
 }

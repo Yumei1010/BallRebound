@@ -1,7 +1,7 @@
 ﻿using GFramework.Core.environment;
-using GFrameworkTemplate.scripts.constants;
+using BallRebound.scripts.constants;
 
-namespace GFrameworkTemplate.scripts.core.environment;
+namespace BallRebound.scripts.core.environment;
 
 /// <summary>
 ///     游戏主环境类，继承自EnvironmentBase

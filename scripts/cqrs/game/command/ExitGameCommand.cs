@@ -1,7 +1,7 @@
 ﻿using GFramework.Core.command;
-using GFrameworkTemplate.scripts.utility;
+using BallRebound.scripts.utility;
 
-namespace GFrameworkTemplate.scripts.cqrs.game.command;
+namespace BallRebound.scripts.cqrs.game.command;
 
 /// <summary>
 ///     退出游戏命令类，用于处理游戏退出逻辑

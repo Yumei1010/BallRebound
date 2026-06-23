@@ -7,7 +7,7 @@ using GFramework.SourceGenerators.Abstractions.logging;
 using GFramework.SourceGenerators.Abstractions.rule;
 using Godot;
 
-namespace GFrameworkTemplate.global;
+namespace BallRebound.global;
 
 /// <summary>
 /// 场景过渡管理器，负责处理场景之间的平滑过渡效果。

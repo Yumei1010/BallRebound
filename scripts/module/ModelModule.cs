@@ -5,9 +5,9 @@ using GFramework.Game.architecture;
 using GFramework.Game.setting;
 using GFramework.Godot.setting;
 using GFramework.Godot.setting.data;
-using GFrameworkTemplate.scripts.data.setting;
+using BallRebound.scripts.data.setting;
 
-namespace GFrameworkTemplate.scripts.module;
+namespace BallRebound.scripts.module;
 
 /// <summary>
 /// ModelModule 类继承自 AbstractModule，用于在架构中安装和注册模型。

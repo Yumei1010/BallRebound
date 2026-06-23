@@ -1,9 +1,9 @@
 using GFramework.Core.extensions;
 using GFramework.Game.Abstractions.ui;
-using GFrameworkTemplate.global;
+using BallRebound.global;
 using Godot;
 
-namespace GFrameworkTemplate.scripts.menu;
+namespace BallRebound.scripts.menu;
 
 public partial class TemplatePage
 {

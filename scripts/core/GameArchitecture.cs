@@ -1,15 +1,15 @@
 ﻿using GFramework.Core.Abstractions.architecture;
 using GFramework.Core.Abstractions.environment;
 using GFramework.Godot.architecture;
-using GFrameworkTemplate.scripts.module;
+using BallRebound.scripts.module;
 
-namespace GFrameworkTemplate.scripts.core;
+namespace BallRebound.scripts.core;
 
 /// <summary>
 ///     游戏架构类，负责安装和管理游戏所需的各种模块
 ///     继承自AbstractArchitecture，用于构建游戏的整体架构体系
 /// </summary>
-public sealed class GameArchitecture(IArchitectureConfiguration configuration, IEnvironment environment) : AbstractArchitecture(configuration, environment)
+public class GameArchitecture(IArchitectureConfiguration configuration, IEnvironment environment) : AbstractArchitecture(configuration, environment)
 {
     public IArchitectureConfiguration Configuration { get; } = configuration;
 
@@ -27,5 +27,7 @@ public sealed class GameArchitecture(IArchitectureConfiguration configuration, I
         InstallModule(new ModelModule());
         // 安装状态相关的Godot模块
         InstallModule(new StateModule());
+        // 安装游戏特有的系统模块（最后安装，依赖以上所有框架模块）
+        InstallModule(new GameModule());
     }
 }

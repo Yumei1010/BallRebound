@@ -1,6 +1,6 @@
-using GFrameworkTemplate.scripts.enums.ui;
+using BallRebound.scripts.enums.ui;
 
-namespace GFrameworkTemplate.scripts.menu;
+namespace BallRebound.scripts.menu;
 
 public partial class TemplatePage
 {

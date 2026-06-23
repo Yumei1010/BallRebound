@@ -1,4 +1,4 @@
-namespace GFrameworkTemplate.scripts.menu;
+namespace BallRebound.scripts.menu;
 
 public partial class TemplatePage
 {

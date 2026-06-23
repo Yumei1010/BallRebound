@@ -1,10 +1,10 @@
 using GFramework.SourceGenerators.Abstractions.logging;
 using GFramework.SourceGenerators.Abstractions.rule;
-using GFrameworkTemplate.scripts.core.controller;
-using GFrameworkTemplate.scripts.enums.input;
+using BallRebound.scripts.core.controller;
+using BallRebound.scripts.enums.input;
 using Godot;
 
-namespace GFrameworkTemplate.global;
+namespace BallRebound.global;
 
 /// <summary>
 ///     全局输入控制器，负责处理全局输入事件

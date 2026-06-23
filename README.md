@@ -76,7 +76,7 @@ dotnet build
 
 ## 与新项目对接
 
-1. 全局替换命名空间 `GFrameworkTemplate` → 你的项目名
+1. 全局替换命名空间 `BallRebound` → 你的项目名
 2. 重命名 `.csproj`、`.sln` 文件
 3. 在 `scripts/enums/ui/UiKey.cs` 中添加你的 UI 页面键
 4. 在 `scripts/enums/scene/SceneKey.cs` 中添加你的场景键

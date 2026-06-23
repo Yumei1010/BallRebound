@@ -3,9 +3,9 @@ using GFramework.Core.extensions;
 using GFramework.Game.Abstractions.setting;
 using GFramework.Game.Abstractions.setting.data;
 using GFramework.Godot.setting;
-using GFrameworkTemplate.scripts.cqrs.setting.command.input;
+using BallRebound.scripts.cqrs.setting.command.input;
 
-namespace GFrameworkTemplate.scripts.cqrs.setting.command;
+namespace BallRebound.scripts.cqrs.setting.command;
 
 /// <summary>
 ///     更改语言命令类

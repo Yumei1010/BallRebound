@@ -4,10 +4,10 @@ using GFramework.Game.Abstractions.ui;
 using GFramework.Godot.extensions;
 using GFramework.SourceGenerators.Abstractions.logging;
 using GFramework.SourceGenerators.Abstractions.rule;
-using GFrameworkTemplate.scripts.constants;
+using BallRebound.scripts.constants;
 using Godot;
 
-namespace GFrameworkTemplate.global;
+namespace BallRebound.global;
 
 /// <summary>
 ///     UI画布层根节点，用于管理UI页面的添加和组织

@@ -1,10 +1,10 @@
 using GFramework.Core.Abstractions.architecture;
 using GFramework.Game.architecture;
 using GFramework.Game.setting;
-using GFrameworkTemplate.scripts.core.scene;
-using GFrameworkTemplate.scripts.core.ui;
+using BallRebound.scripts.core.scene;
+using BallRebound.scripts.core.ui;
 
-namespace GFrameworkTemplate.scripts.module;
+namespace BallRebound.scripts.module;
 
 /// <summary>
 ///     系统模块类，负责安装和注册框架所需的各种系统组件
