@@ -16,6 +16,10 @@ public class StateModule : AbstractModule
         architecture.RegisterSystem(new GameStateMachineSystem().Also(it =>
         {
             it.Register(new AppState());
+            it.Register(new MainMenuState());
+            it.Register(new GameplayState());
+            it.Register(new GamePausedState());
+            it.Register(new GameOverState());
         }));
     }
 }
